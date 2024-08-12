@@ -1,0 +1,43 @@
+header {
+  margin-top: 10px;
+  border-bottom: 1px solid #80808014;
+  margin-bottom: 30px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+  flex-grow: 1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.h_img {
+  width: 40px;
+  height: 40px;
+}
+
+.h_con {
+  display: flex;
+}
+
+#bar3 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#mark {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
